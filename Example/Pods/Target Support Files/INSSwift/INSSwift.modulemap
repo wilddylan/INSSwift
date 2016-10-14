@@ -1,0 +1,6 @@
+framework module INSSwift {
+  umbrella header "INSSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

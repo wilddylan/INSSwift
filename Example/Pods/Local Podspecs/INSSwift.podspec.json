@@ -1,0 +1,46 @@
+{
+  "name": "INSSwift",
+  "version": "0.1.0",
+  "summary": "A short description of INSSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/INSSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dylan": "3664132@163.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/INSSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "INSSwift/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "LKDBHelper": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Moya": [
+      "8.0.0-beta.2"
+    ],
+    "PermissionScope": [
+
+    ],
+    "AsyncDisplayKit": [
+
+    ],
+    "KeychainAccess": [
+
+    ]
+  }
+}

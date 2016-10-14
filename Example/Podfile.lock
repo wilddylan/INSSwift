@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AsyncDisplayKit (1.9.90):
+    - AsyncDisplayKit/PINRemoteImage (= 1.9.90)
+  - AsyncDisplayKit/ASDealloc2MainObject (1.9.90)
+  - AsyncDisplayKit/Core (1.9.90):
+    - AsyncDisplayKit/ASDealloc2MainObject
+  - AsyncDisplayKit/PINRemoteImage (1.9.90):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (>= 3.0.0-beta.3)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - INSSwift (0.1.0):
+    - AsyncDisplayKit
+    - KeychainAccess
+    - LKDBHelper
+    - Moya (= 8.0.0-beta.2)
+    - PermissionScope
+    - YYModel
+  - KeychainAccess (3.0.0)
+  - LKDBHelper (2.3.5):
+    - FMDB
+  - Moya (8.0.0-beta.2):
+    - Moya/Core (= 8.0.0-beta.2)
+  - Moya/Core (8.0.0-beta.2):
+    - Alamofire (~> 4.0.0)
+    - Result
+  - PermissionScope (1.1.1)
+  - PINCache (3.0.1-beta)
+  - PINRemoteImage/Core (3.0.0-beta.3):
+    - PINCache (>= 3.0.0-beta)
+  - PINRemoteImage/iOS (3.0.0-beta.3):
+    - PINRemoteImage/Core
+  - Result (3.0.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - INSSwift (from `../`)
+
+EXTERNAL SOURCES:
+  INSSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AsyncDisplayKit: 926ded3ca3fb7026565e0e81f0e132fea4d3a6eb
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  INSSwift: bf6add00c805e84c69126ba1ed096614983d9797
+  KeychainAccess: 412bf2650d9aebfc8135a58103b90ec38caad7f8
+  LKDBHelper: 23e114721d862fcf1d2f0b59bfddf60899562010
+  Moya: 920d40f738e6f4ece84010cec701bb9693be8251
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  PINCache: 6911fe422a633e18b3d3ddf2bd4f0e55e36e2892
+  PINRemoteImage: 308731aa6534500e58fc211b9cc2bb7252df25ba
+  Result: 1b3e431f37cbcd3ad89c6aa9ab0ae55515fae3b6
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 2ed83ec2a83a02e814209414cac744814a5f318e
+
+COCOAPODS: 1.1.0.rc.2
